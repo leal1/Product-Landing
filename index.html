@@ -13,64 +13,101 @@
 			</div>
 			<nav id = "nav-bar">
 				<ul>
-					<li> <a href = "#features" class = "nav-link">Features </a></li>
-					<li> <a href = "how-it-works" class = "nav-link" > How it Works </a></li>
 					<li> <a href = "#pricing"class = "nav-link" > Pricing </a></li>
+					<li> <a href = "#how-it-works" class = "nav-link" > How it works </a></li>
+					<li> <a href = "#features" class = "nav-link">Features </a></li>
 				</ul>
 				
 			</nav>
 		</header>
 		<div id = "form-div">
-			<h1> Handcrafted, home-made masterpieces </h1>
+			<h2> Handcrafted, home-made masterpieces </h1>
 			<form id = "form" action = "https://www.freecodecamp.com/email-submit">
-				<input name = "email" id = "email" type = "email" placeholder = "Enter your email address" required/> 
-				<input id  = "submit" type = "submit" value = "Get Started"> 
-				
+				<input name = "email" id = "email" class = "input" type = "email" placeholder = "Enter your email address" required/> 
+				<input id  = "submit"  type = "submit" value = "Get Started"> 			
 			</form>
 		</div>
+
 		<section id = "features">
-			<div class = "container">
-				<span class = "fa fa-3x fa-bolt"> </span>
-				<span class = "fa fa-3x fa-cogs"> </span>
-				<span class = "fa fa-3x fa-check"> </span>
-				<h2> Premium Materials </h2>
-				<p> Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p>
-				<h2> Fast Shipping </h2>
-				<p> We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-				<h2> Quality Assurance </h2>
-				<p> For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument. </p>
-				
+			<div class = "container" >
+				<div class = "logo">
+					<span class = "fa fa-3x fa-cogs "> </span>
+				</div>
+				<div class = "header-p">
+					<h2> Premium Materials </h2>
+					<p> Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p>
+				</div>
 			</div>
-		</section>
-		<section id = "how-it-works">
-			<iframe id = "video" width = "400" height = "300" 
-				src = "https://www.youtube.com/embed/0OttfOXsP2M">
-			</iframe>
-				
+			<div class = "container">
+				<div class = "logo">
+					<span class = "fa fa-3x fa-bolt "> </span>
+				</div>
+				<div class = "header-p">
+					<h2> Fast Shipping </h2>
+					<p> We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+				</div>
+			</div>
+			<div class = "container">
+				<div class = "logo">
+					<span class = "fa fa-3x fa-check "> </span>
+				</div>
+				<div class = "header-p">
+					<h2> Quality Assurance </h2>
+					<p> For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument. </p>
+				</div>
+			</div>
 		</section>
 
-		<seciton id = "pricing">
-			<div id = "price-div">
-				<div>
-					<h2> Tenor Trombone </h2>
+		<section id = "how-it-works">
+			<iframe id = "video" width = "600" height = "400" 
+				src = "https://www.youtube.com/embed/0OttfOXsP2M">
+			</iframe>		
+		</section>
+
+		<section id = "pricing">
+				<div id="tenor">
+					<div class =  "title">
+						<h2> Tenor Trombone </h2>
+					</div>
 					<h2> $600 </h2>
-					<p> Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.  </p>
-					<input  type = "submit" value = "SELECT"> 
+					<ol>
+						<li> Lorem ipsum. </li>
+						<li> Lorem ipsum. </li>
+						<li> Lorem ipsum dolor. </li>
+						<li> Lorem ipsum. </li>
+					</ol>
+					<input class="select" type = "submit" value = "SELECT"> 
 				</div>
-				<div>
-					<h2> Bass Trombone </h2>
+				<div id="bass">
+					<div class = "title">
+						<h2> Bass Trombone </h2>
+					</div>
 					<h2> $900 </h2>
-					<p> Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum. </p>
-					<input  type = "submit" value = "SELECT"> 
+					<ol>
+						<li> Lorem ipsum. </li>
+						<li> Lorem ipsum. </li>
+						<li> Lorem ipsum dolor. </li>
+						<li> Lorem ipsum. </li>
+					</ol>
+				
+					<input class="select" type = "submit" value = "SELECT"> 
 				</div>
-				<div>
-					<h2> Valve Trombone </h2>
+				<div id="valve">
+					<div class = "title">
+						<h2> Valve Trombone </h2>
+					</div>
 					<h2> $1200 </h2>
-					<p> Plays similar to a Trumpet Great for Jazz Bands Lorem ipsum dolor. Lorem ipsum. </p>
-					<input  type = "submit" value = "SELECT"> 
+					<ol>
+						<li> Plays similar to a Trumpet. </li>
+						<li> Great for Jazz Bands. </li>
+						<li> Lorem ipsum dolor. </li>
+						<li> Lorem ipsum. </li>
+					</ol>
+				
+					<input class="select" type = "submit" value = "SELECT"> 
 				</div>
-			</div>
-		</seciton>
+
+		</section>
 	</div>
 
 
