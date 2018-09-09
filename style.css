@@ -3,6 +3,10 @@
 	margin: 0px;
 	box-sizing: content-box;
 }
+body {
+	background-color: #eee;
+	font-family: "Work Sans";
+}
 #wrapper{
 	position: relative;
 }
@@ -15,10 +19,12 @@ header {
 	top: 0; left: 0;
 	width: 100%;
 	height:100px;
+	background-color: #eee;
+	z-index: 300;
 }
 ul{
 	list-style: none;
-	width: 50vh;
+	width: 60vh;
 }
 li {
 	float: right;
@@ -45,6 +51,9 @@ li a {
 	margin:0 auto;
 
 }
+#form-div h2{
+	font-size: 22px;
+}
 
 #submit {
 	display: block;
@@ -54,10 +63,12 @@ li a {
 }
 
 #email {
-	width: 200px;
-	height: 20px;
+	width: 250px;
+	height: 25px;
 	margin-left: 80px;
 	margin-top: 10px;
+	padding-left: 10px;
+	border: 1.5px #bebebe solid;
 }
 
 .container {
@@ -73,6 +84,7 @@ li a {
 	height: 130px;
 	justify-content: center;
 	align-items: center;
+	color:darkorange;
 }
 
 .header-p {
@@ -88,12 +100,14 @@ li a {
 	padding: 80px 20px;
 }
 #pricing{
+	width: 1300px;
+	margin: 0 auto;
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: center;
+	justify-content: space-around;
 	
 
-	border: 2px solid black;
+	
 }
 #price-div {
 
@@ -103,23 +117,44 @@ li a {
 }
 
 
-.box{
+#valve, #tenor, #bass{
+	width: 25%;
+	padding: 30px;
+	display: flex;
+	flex-flow: column nowrap;
+	
+	align-items: center;
+	text-align: center;
 
 
  	border: 2px solid black;
+ 	background-color: #D3D3D3;
 
 }
 
 ol{
-	
-	
+	padding: 20px;
+	text-align: center;
+	align-self: baseline;
 
 }
 li{
 	list-style: none;
+	font-size: 14pt;
 	
 }
+li a:hover{
+	color:darkorange;
+}
+
+.title {
+	margin: 0;
+	border-bottom: 2px solid black;
+
+}
 .select {
+	background-color: orange;
+	padding: 10px;
 
 }
 
